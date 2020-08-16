@@ -1,0 +1,7 @@
+<h1>New</h1>
+
+<%= form_for @post, url: create_path do | f | %>
+<%=  f.text_field :title %>
+<%=  f.text_field :content %>
+<%= f.submit "登録" %>
+<% end %>

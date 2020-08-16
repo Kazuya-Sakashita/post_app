@@ -1,0 +1,5 @@
+<h1>Index</h1>
+
+<% @posts.each do | post |%>
+<%=link_to post.title, show_path(post.id) %><br>
+<% end %>
